@@ -6,19 +6,22 @@
   <link rel="stylesheet" href="recipiestyle.css" />
 </head>
 <body>
-
-  <h1>🍲 Online Recipe Book</h1>
+<diV class="outer">
+    <h1>Spice it up, serve it hot!</h1>
 
   <div class="search-box">
     <select id="searchType">
       <option value="name">Search by Name</option>
       <option value="letter">Search by First Letter</option>
     </select>
-    <input type="text" id="searchInput" placeholder="Enter your search...">
+    <input type="text" id="searchInput" placeholder="Enter your search..." >
     <button onclick="searchRecipes()">Search</button>
   </div>
 
   <div id="recipeGrid" class="grid"></div>
+  
+</diV>
+  
 
   <script src="recipiescript.js"></script>
 </body>
