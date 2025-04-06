@@ -1,3 +1,8 @@
+window.onload = function () {
+  document.getElementById("searchType").value = "name";
+  document.getElementById("searchInput").value = "fish";
+  searchRecipes();
+}
 function searchRecipes() {
     var type = document.getElementById("searchType").value;
     var input = document.getElementById("searchInput").value.trim();
